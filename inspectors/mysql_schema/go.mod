@@ -3,8 +3,8 @@ module github.com/simon-engledew/seed/inspectors/mysql_schema
 go 1.19
 
 require (
-	github.com/pingcap/tidb v1.1.0-beta.0.20220825063022-5263a0abda61
-	github.com/pingcap/tidb/parser v0.0.0-20220825063022-5263a0abda61
+	github.com/pingcap/tidb v0.0.0-20220908120655-e75a079d432e
+	github.com/pingcap/tidb/parser v0.0.0-20220908120655-e75a079d432e
 	github.com/simon-engledew/seed v0.0.0-20220908125509-a886b609a343
 	github.com/stretchr/testify v1.8.0
 )
@@ -20,6 +20,7 @@ require (
 	github.com/coreos/etcd v3.3.27+incompatible // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
 	github.com/coreos/pkg v0.0.0-20220810130054-c7d1c02cb6cf // indirect
+	github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548 // indirect
 	github.com/danjacques/gofslock v0.0.0-20220131014315-6e321f4509c8 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
@@ -44,7 +45,9 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
-	github.com/shirou/gopsutil/v3 v3.21.12 // indirect
+	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
+	github.com/shirou/gopsutil/v3 v3.22.7 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/tikv/client-go/v2 v2.0.1 // indirect
 	github.com/tikv/pd v1.1.0-beta.0.20210323121136-78679e5e209d // indirect
 	github.com/uber/jaeger-client-go v2.30.0+incompatible // indirect
@@ -54,7 +57,7 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.23.0 // indirect
-	golang.org/x/exp v0.0.0-20220426173459-3bcf042a4bf5 // indirect
+	golang.org/x/exp v0.0.0-20220907003533-145caa8ea1d0 // indirect
 	golang.org/x/net v0.0.0-20220907135653-1e95f45603a7 // indirect
 	golang.org/x/sync v0.0.0-20220907140024-f12130a52804 // indirect
 	golang.org/x/sys v0.0.0-20220907062415-87db552b00fd // indirect

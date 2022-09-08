@@ -25,6 +25,9 @@ github.com/coreos/go-systemd/journal
 # github.com/coreos/pkg v0.0.0-20220810130054-c7d1c02cb6cf
 ## explicit
 github.com/coreos/pkg/capnslog
+# github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548
+## explicit
+github.com/cznic/mathutil
 # github.com/danjacques/gofslock v0.0.0-20220131014315-6e321f4509c8
 ## explicit; go 1.0
 github.com/danjacques/gofslock/fslock
@@ -104,21 +107,22 @@ github.com/pingcap/kvproto/pkg/tracepb
 # github.com/pingcap/log v1.1.0
 ## explicit; go 1.16
 github.com/pingcap/log
-# github.com/pingcap/tidb v1.1.0-beta.0.20220825063022-5263a0abda61
-## explicit; go 1.18
+# github.com/pingcap/tidb v0.0.0-20220908120655-e75a079d432e
+## explicit; go 1.19
+github.com/pingcap/tidb/br/pkg/streamhelper/config
 github.com/pingcap/tidb/config
 github.com/pingcap/tidb/errno
 github.com/pingcap/tidb/metrics
 github.com/pingcap/tidb/sessionctx/stmtctx
 github.com/pingcap/tidb/tablecodec/rowindexcodec
 github.com/pingcap/tidb/types
-github.com/pingcap/tidb/types/json
 github.com/pingcap/tidb/types/parser_driver
 github.com/pingcap/tidb/util/collate
 github.com/pingcap/tidb/util/dbterror
 github.com/pingcap/tidb/util/disk
 github.com/pingcap/tidb/util/execdetails
 github.com/pingcap/tidb/util/hack
+github.com/pingcap/tidb/util/kvcache
 github.com/pingcap/tidb/util/logutil
 github.com/pingcap/tidb/util/mathutil
 github.com/pingcap/tidb/util/memory
@@ -130,8 +134,8 @@ github.com/pingcap/tidb/util/topsql/state
 github.com/pingcap/tidb/util/topsql/stmtstats
 github.com/pingcap/tidb/util/tracing
 github.com/pingcap/tidb/util/versioninfo
-# github.com/pingcap/tidb/parser v0.0.0-20220825063022-5263a0abda61
-## explicit; go 1.13
+# github.com/pingcap/tidb/parser v0.0.0-20220908120655-e75a079d432e
+## explicit; go 1.18
 github.com/pingcap/tidb/parser
 github.com/pingcap/tidb/parser/ast
 github.com/pingcap/tidb/parser/auth
@@ -159,6 +163,7 @@ github.com/power-devops/perfstat
 # github.com/prometheus/client_golang v1.13.0
 ## explicit; go 1.17
 github.com/prometheus/client_golang/prometheus
+github.com/prometheus/client_golang/prometheus/collectors
 github.com/prometheus/client_golang/prometheus/internal
 # github.com/prometheus/client_model v0.2.0
 ## explicit; go 1.9
@@ -173,7 +178,10 @@ github.com/prometheus/common/model
 github.com/prometheus/procfs
 github.com/prometheus/procfs/internal/fs
 github.com/prometheus/procfs/internal/util
-# github.com/shirou/gopsutil/v3 v3.21.12
+# github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0
+## explicit; go 1.12
+github.com/remyoudompheng/bigfft
+# github.com/shirou/gopsutil/v3 v3.22.7
 ## explicit; go 1.15
 github.com/shirou/gopsutil/v3/internal/common
 github.com/shirou/gopsutil/v3/mem
@@ -184,6 +192,9 @@ github.com/simon-engledew/seed/consumers
 github.com/simon-engledew/seed/distribution
 github.com/simon-engledew/seed/generators
 github.com/simon-engledew/seed/inspectors
+# github.com/spf13/pflag v1.0.5
+## explicit; go 1.12
+github.com/spf13/pflag
 # github.com/stretchr/testify v1.8.0
 ## explicit; go 1.13
 github.com/stretchr/testify/assert
@@ -250,9 +261,10 @@ go.uber.org/zap/internal/exit
 go.uber.org/zap/internal/ztest
 go.uber.org/zap/zapcore
 go.uber.org/zap/zaptest
-# golang.org/x/exp v0.0.0-20220426173459-3bcf042a4bf5
+# golang.org/x/exp v0.0.0-20220907003533-145caa8ea1d0
 ## explicit; go 1.18
 golang.org/x/exp/constraints
+golang.org/x/exp/slices
 # golang.org/x/net v0.0.0-20220907135653-1e95f45603a7
 ## explicit; go 1.17
 golang.org/x/net/context

@@ -839,15 +839,15 @@ const (
 	ErrNotValidPassword                                      = 1819
 	ErrMustChangePassword                                    = 1820
 	ErrFkNoIndexChild                                        = 1821
-	ErrFkNoIndexParent                                       = 1822
+	ErrForeignKeyNoIndexInParent                             = 1822
 	ErrFkFailAddSystem                                       = 1823
-	ErrFkCannotOpenParent                                    = 1824
+	ErrForeignKeyCannotOpenParent                            = 1824
 	ErrFkIncorrectOption                                     = 1825
 	ErrFkDupName                                             = 1826
 	ErrPasswordFormat                                        = 1827
 	ErrFkColumnCannotDrop                                    = 1828
 	ErrFkColumnCannotDropChild                               = 1829
-	ErrFkColumnNotNull                                       = 1830
+	ErrForeignKeyColumnNotNull                               = 1830
 	ErrDupIndex                                              = 1831
 	ErrFkColumnCannotChange                                  = 1832
 	ErrFkColumnCannotChangeChild                             = 1833
@@ -926,11 +926,11 @@ const (
 	ErrWindowNestedWindowFuncUseInWindowSpec                 = 3595
 	ErrWindowRowsIntervalUse                                 = 3596
 	ErrWindowNoGroupOrderUnused                              = 3597
-	ErrWindowExplainJson                                     = 3598
+	ErrWindowExplainJson                                     = 3598 //nolint: revive
 	ErrWindowFunctionIgnoresFrame                            = 3599
 	ErrDataTruncatedFunctionalIndex                          = 3751
 	ErrDataOutOfRangeFunctionalIndex                         = 3752
-	ErrFunctionalIndexOnJsonOrGeometryFunction               = 3753
+	ErrFunctionalIndexOnJsonOrGeometryFunction               = 3753 //nolint: revive
 	ErrFunctionalIndexRefAutoIncrement                       = 3754
 	ErrCannotDropColumnFunctionalIndex                       = 3755
 	ErrFunctionalIndexPrimaryKey                             = 3756
@@ -943,8 +943,8 @@ const (
 	ErrFKIncompatibleColumns                                 = 3780
 	ErrFunctionalIndexRowValueIsNotAllowed                   = 3800
 	ErrDependentByFunctionalIndex                            = 3837
-	ErrInvalidJsonValueForFuncIndex                          = 3903
-	ErrJsonValueOutOfRangeForFuncIndex                       = 3904
+	ErrInvalidJsonValueForFuncIndex                          = 3903 //nolint: revive
+	ErrJsonValueOutOfRangeForFuncIndex                       = 3904 //nolint: revive
 	ErrFunctionalIndexDataIsTooLong                          = 3907
 	ErrFunctionalIndexNotApplicable                          = 3909
 
