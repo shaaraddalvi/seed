@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/pingcap/tidb v1.1.0-beta.0.20220825063022-5263a0abda61
 	github.com/pingcap/tidb/parser v0.0.0-20220825063022-5263a0abda61
-	github.com/simon-engledew/seed v0.0.0-20220908133000-a886b609a343
+	github.com/simon-engledew/seed v0.0.0-20220908125509-a886b609a343
 	github.com/stretchr/testify v1.8.0
 )
 
