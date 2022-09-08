@@ -3,15 +3,16 @@ package mysql_schema_test
 import (
 	"bytes"
 	"context"
-	"github.com/simon-engledew/seed"
-	"github.com/simon-engledew/seed/consumers"
-	"github.com/simon-engledew/seed/distribution"
-	"github.com/stretchr/testify/require"
 	"io"
-	"mysql_schema"
 	"os"
 	"strings"
 	"testing"
+
+	"github.com/simon-engledew/seed"
+	"github.com/simon-engledew/seed/consumers"
+	"github.com/simon-engledew/seed/distribution"
+	"github.com/simon-engledew/seed/inspectors/mysql_schema"
+	"github.com/stretchr/testify/require"
 )
 
 func TestExample(t *testing.T) {

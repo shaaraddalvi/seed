@@ -177,7 +177,7 @@ github.com/prometheus/procfs/internal/util
 ## explicit; go 1.15
 github.com/shirou/gopsutil/v3/internal/common
 github.com/shirou/gopsutil/v3/mem
-# github.com/simon-engledew/seed v0.0.0 => ../../
+# github.com/simon-engledew/seed v0.0.0-20220908133000-a886b609a343 => ../../
 ## explicit; go 1.19
 github.com/simon-engledew/seed
 github.com/simon-engledew/seed/consumers
